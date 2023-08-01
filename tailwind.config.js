@@ -6,12 +6,18 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    backgroundImage:{
+      'img_bg_hero':"url('../assets/img/bg-hero.png')",
+    },
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
+      colors:{
+      'primary-blue':'#064FA0',
+      'primary-turq':'#56B8E6',
+      'primary-white':'#FFFFFF',
+      'primary-green':'#198754',
+      'primary-text-dark':'#2B180D',
+      'secondary-text-light':'#BACFE5'
+      }     
     },
   },
   plugins: [],
