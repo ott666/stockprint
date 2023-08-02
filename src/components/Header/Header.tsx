@@ -7,7 +7,7 @@ import Image from 'next/image'
 
 export function Header(){
     return(
-        <header className='fixed z-10 flex items-center w-full h-28 bg-primary-blue'>
+        <header className='fixed z-10 flex items-center w-full h-28 bg-primary-turq'>
             <Container>
                 <div className='flex items-center gap-14 justify-between w-full'>
                     <Image 
