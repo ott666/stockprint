@@ -6,7 +6,7 @@ export function SectionHero(){
                 <video autoPlay muted loop className="absolute z-[-2] min-w-full min-h-full">
                     <source src={'video/video.mp4'} />
                 </video>
-            <div className="absolute top-0 bottom-0 left-0 right-0 z-[-3] bg-img_bg_hero bg-no-repeat bg-center bg-cover"></div>
+ 
             <div className="absolute top-0 left-0 bottom-0 w-[40%] bg-primary-blue z-[-1]">
 
             </div>
