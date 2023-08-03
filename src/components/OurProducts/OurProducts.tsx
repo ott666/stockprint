@@ -9,7 +9,6 @@ import BgCard1 from '@/assets/img/fundo1.png'
 import BgCard2 from '@/assets/img/fundo2.png'
 import BgCard3 from '@/assets/img/fundo3.png'
 import BgCard4 from '@/assets/img/fundo4.png'
-import { CardProduct } from "../CardProduct/CardProduct";
 
 
 export function OurProducts(){
@@ -22,21 +21,6 @@ export function OurProducts(){
                     <CardMainItem url={BgCard2} text='Ribbons' url2={ImgCard2} alt='Ribbons 084051'/>
                     <CardMainItem url={BgCard3} text='Kits de limpeza' url2={ImgCard3} alt='Kit 086177'/>
                     <CardMainItem url={BgCard4} text='Impressoras de Etiqueta' url2={ImgCard4} alt='Zebra ZD220'/>
-                </div>
-                <div className="flex flex-col justify-center">
-                    <ul className="flex gap-[25px] bg-primary-blue py-[30px] mt-[50px] w-full rounded-full text-4xl text-white justify-around">
-                        <li>Todos</li>
-                        <li>Impressoras</li>
-                        <li>Ribbons</li>
-                        <li>Kits de limpeza</li>
-                        <li>Etiqueta</li>
-                    </ul>
-                    <div className="flex flex-wrap w-full gap-2 mt-[50px]">
-                    <CardProduct urlproduct={ImgCard1} altproduct="HID FARGO Ink1000" title='HID FARGO INK1000' subt='Impressora INKJET - Lançamento Global - Não utiliza cabeça'/>
-                    <CardProduct urlproduct={ImgCard1} altproduct="HID FARGO Ink1000" title='HID FARGO INK1000' subt='Impressora INKJET - Lançamento Global - Não utiliza cabeça'/>
-                    <CardProduct urlproduct={ImgCard1} altproduct="HID FARGO Ink1000" title='HID FARGO INK1000' subt='Impressora INKJET - Lançamento Global - Não utiliza cabeça'/>
-                   
-                    </div>
                 </div>
             </div>
             

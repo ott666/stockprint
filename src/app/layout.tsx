@@ -2,6 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Bebas_Neue } from 'next/font/google'
 import { Header } from '@/components/Header/Header'
+import Footer from '@/components/Footer/Footer'
 
 
 const bebas = Bebas_Neue({ 
@@ -21,11 +22,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      
       <body className={bebas.className}>
         <Header />
 
         {children}
-        
+        <Footer />
         </body>
     </html>
   )
