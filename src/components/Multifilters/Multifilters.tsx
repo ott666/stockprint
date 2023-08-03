@@ -50,7 +50,7 @@ export default function Multifilters(){
                     </ul>
                     <div className="flex flex-wrap w-full gap-2 mt-[50px]">
                     {filteredItems.map((item, idx) => (
-                        <CardProduct title={item.name} urlproduct={ImgCard1} altproduct={item.name} subt={item.text}/>
+                        <CardProduct  key={idx} title={item.name} urlproduct={ImgCard1} altproduct={item.name} subt={item.text}/>
                     ))}
                    
                     </div>
