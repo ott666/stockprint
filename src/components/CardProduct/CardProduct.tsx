@@ -9,6 +9,7 @@ interface CardProductProps{
     altproduct:string
     title:string
     subt:string
+    key:string
 }
 
 export function CardProduct(props: CardProductProps){
