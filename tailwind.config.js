@@ -7,6 +7,7 @@ module.exports = {
   ],
   theme: {
     backgroundImage:{
+      'img-bg-cta':"linear-gradient(rgba(27, 47, 69, 0.8), rgba(27, 47, 69, 0.8)), url('../assets/img/cta-bg.jpeg')",
       'img_bg_hero':"url('../assets/img/bg-hero.png')",
       'img_bg_card1':"url('../assets/img/fundo1.png')",
       'img_bg_card2':"url('../assets/img/fundo2.png')",

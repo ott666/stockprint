@@ -16,7 +16,7 @@ export function SectionHero(){
                     <h1 className="text-white font-sans font-bold text-5xl tracking-tighter">
                     Foco no que importa
                     </h1>
-                    <span className="text-secondary-text-light font-sans">
+                    <span className="text-secondary-text-light font-sans text-[20px]">
                     Há mais de 17 anos, a Stockprint é líder no mercado de identificação, oferecendo soluções inovadoras e confiáveis para empresas de diversos segmentos.
                     </span>
                     <button className="bg-secondary-blue py-5 rounded-full">

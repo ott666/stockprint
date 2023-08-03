@@ -29,7 +29,7 @@ export function Header(){
                     </div>
                 </div>
 
-            </Container>a
+            </Container>
                     
         </header>
     )

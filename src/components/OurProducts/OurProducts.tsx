@@ -32,9 +32,9 @@ export function OurProducts(){
                         <li>Etiqueta</li>
                     </ul>
                     <div className="flex flex-wrap w-full gap-2 mt-[50px]">
-                    <CardProduct urlbg={BgCard1} urlproduct={ImgCard1} altproduct="HID FARGO Ink1000"/>
-                    <CardProduct urlbg={BgCard1} urlproduct={ImgCard1} altproduct="HID FARGO Ink1000"/>
-                    <CardProduct urlbg={BgCard1} urlproduct={ImgCard1} altproduct="HID FARGO Ink1000"/>
+                    <CardProduct urlproduct={ImgCard1} altproduct="HID FARGO Ink1000" title='HID FARGO INK1000' subt='Impressora INKJET - Lançamento Global - Não utiliza cabeça'/>
+                    <CardProduct urlproduct={ImgCard1} altproduct="HID FARGO Ink1000" title='HID FARGO INK1000' subt='Impressora INKJET - Lançamento Global - Não utiliza cabeça'/>
+                    <CardProduct urlproduct={ImgCard1} altproduct="HID FARGO Ink1000" title='HID FARGO INK1000' subt='Impressora INKJET - Lançamento Global - Não utiliza cabeça'/>
                    
                     </div>
                 </div>
