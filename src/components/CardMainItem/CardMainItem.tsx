@@ -75,7 +75,7 @@ export function CardMainItem(props: CardMainItemProps){
                     </motion.div>
                     <motion.div variants={textoVariant}
                     transition={{duration:.8, type:'easeInOut'}}
-                    >
+                    className="h-[100px] flex items-center justify-center">
                     <h2 className="text-4xl font-sans text-center text-white font-bold mt-[10px] pb-3"> 
 
                         {props.text}

@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import { Bebas_Neue } from 'next/font/google'
 import { Header } from '@/components/Header/Header'
 import Footer from '@/components/Footer/Footer'
+import WhatsappButton from '@/components/WhatsappButton/WhatsappButton'
 
 
 const bebas = Bebas_Neue({ 
@@ -25,7 +26,7 @@ export default function RootLayout({
       <head />
       <body className={bebas.className}>
         <Header />
-
+        <WhatsappButton />
         {children}
         <Footer />
         </body>

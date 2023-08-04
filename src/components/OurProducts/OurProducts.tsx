@@ -15,7 +15,7 @@ export function OurProducts(){
     return(
         <Container>
             <div className="flex flex-col w-[100%] h-[100%]">
-                <h1 className="text-center  text-5xl mt-[50px]">Nossos produtos</h1>
+                <h1 className="text-center font-sans tracking-tighter font-semibold  text-5xl mt-[50px]">Nossos produtos</h1>
                 <div className="flex flex-wrap justify-between w-[100%] mt-5 pt-[50px]">
                     
                     <CardMainItem url={BgCard1} text='Impressoras de cartao' url2={ImgCard1} alt='HID FARGO INK1000'/>

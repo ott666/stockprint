@@ -1,5 +1,5 @@
 import Image from "next/image"
-import ArrowDown from '@/assets/icons/arrow-down.svg'
+import ArrowDown from '/public/icons/arrow-down.svg'
 
 type Props = {
     name:string

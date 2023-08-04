@@ -6,6 +6,7 @@ import Cta from '@/components/Cta/Cta';
 import Servicos from '@/components/Servicos/Servicos';
 import Footer from '@/components/Footer/Footer';
 import ProdutoPage from '@/components/ProdutoPage/ProdutoPage';
+import WhatsappButton from '@/components/WhatsappButton/WhatsappButton';
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
       <title>Pagina do ott</title>
     </head>
     <TransitionEffect2/>
-    
+   
     <SectionHero/>
     <OurProducts />
     <ProdutoPage/>
