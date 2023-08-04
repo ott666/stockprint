@@ -1,18 +1,16 @@
-'use client'
-import { SectionHero } from '@/components/SectionHero/SectionHero'
-import TransitionEffect2 from '@/components/TransitionEffect/TransitionEffect2'
-import React from 'react'
+import React from "react"
+import Breadcrumb from "@/components/Breadcrumb/Breadcrumb"
+import Produtoo from '@/data/products.json'
 
-const page = () => {
+export default function Page({params}){
+
+  console.log(params)
+  console.log(Produtoo, 'aquiiiiiii')
   return (
     <>
-    <head>
-      <title>pagina dois</title>
-    </head>
-    <TransitionEffect2/>
-    <SectionHero />
+    <Breadcrumb title={params.pseudo}/>
+    <div className="h-screen">oi</div>
     </>
+  
   )
 }
-
-export default page
