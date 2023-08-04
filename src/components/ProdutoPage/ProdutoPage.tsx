@@ -8,8 +8,8 @@ const ProdutoPage = () => {
   return (
     <>
       <Container>
-        <div className="flex flex-col w-full items-center">
-          <div className="">
+        <div className="flex flex-col w-full justify-center items-center">
+          <div className="w-full flex justify-center">
               <GenerosProdutos
                 selectedGenre={selectedGenre}
                 onSelect={setSelectedGenre}

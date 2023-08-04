@@ -3,7 +3,7 @@
 {"id":1,"title":"HID Fargo INK1000","genre":"impressora", "pseudo":"ink1000"},
 {"id":2,"title":"HID Fargo DTC1500","genre":"impressora", "pseudo":"dtc1500"},
 {"id":3,"title":"HID Fargo DTC1250e Single","genre":"impressora", "pseudo":"dtc1250e_single"},
-{"id":4,"title":"HID Fargo DTC1250e Dual","genre":"impressora", "pseudo":"dtc1250e_dual"},
-{"id":5,"title":"HID Fargo HDP5000","genre":"impressora", "pseudo":"hdp5000"},
-{"id":6,"title":"HID Fargo HDP6600","genre":"impressora", "pseudo":"hdp6600"}
+{"id":4,"title":"HID Fargo DTC1250e Dual","genre":"limpeza", "pseudo":"dtc1250e_dual"},
+{"id":5,"title":"HID Fargo HDP5000","genre":"ribbons", "pseudo":"hdp5000"},
+{"id":6,"title":"HID Fargo HDP6600","genre":"etiquetas", "pseudo":"hdp6600"}
 ]
