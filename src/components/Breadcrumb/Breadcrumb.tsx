@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 
 
-const Breadcrumb = (props) => {
+const Breadcrumb = (props:any) => {
     return (
         <>
         
