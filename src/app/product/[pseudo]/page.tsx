@@ -1,17 +1,16 @@
 import React from "react"
 import Breadcrumb from "@/components/Breadcrumb/Breadcrumb"
-import Produtoo from '@/data/products.json'
-
-
+import Produtos from '@/data/products.json'
 
 export default function Page({params}:any){
-
-  console.log(params.pseudo)
-  console.log(Produtoo, 'aquiiiiiii')
+  const produto = Produtos.find(({ pseudo }) =>  pseudo === params.pseudo)
   return (
     <>
-    <Breadcrumb title={params.pseudo}/>
+    <div className="w-full flex flex-col">
+    <Breadcrumb produto={produto}/>
     <div className="h-screen">oi</div>
+    
+    </div>
     </>
   
   )

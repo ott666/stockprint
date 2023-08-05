@@ -1,18 +1,23 @@
 import React from 'react'
-import Produtoo from '@/data/products.json'
+import Image from 'next/image'
 
 
-interface breadcrumbProps{
-    title:object
-}
 
 
-const Breadcrumb = (props: breadcrumbProps) => {
+const Breadcrumb = (props) => {
     return (
         <>
-        {console.log(Produtoo, 'aquiiiiiii')}
-    <div className='w-screen h-[60vh] pt-[112px] bg-img_bg_hero bg-cover bg-fixed bg-center flex items-center justify-center'>
-        <h1 className='text-white text-4xl'>{`${props.title}`}</h1>
+        
+    <div className='w-screen h-[60vh] pt-[112px] flex items-center justify-center relative'>
+    <Image 
+        width={1920}
+        height={1080}
+        alt='bg'
+        className='absolute z-[-1] h-auto bg-cover'
+        src={`/${props.produto.pseudo}/${props.produto.pseudo}1.png`} 
+        />
+        
+        <h1 className='text-white text-4xl'>{` ${props.produto.genre}/ ${props.produto.pseudo}`}</h1>
     </div>
     </>
   )
