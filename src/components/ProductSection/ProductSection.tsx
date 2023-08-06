@@ -20,7 +20,7 @@ const ProductSection =(props:any) =>{
            <Carousel>
            {fotosProduto.map((produto)=>(
             <div key={props.lista.pseudo} className="bg-cover">
-                <img  src={produto} alt={produto}/>
+                <img src={`${produto}`} alt={`${produto}`}/>
             </div>
            ))}
            </Carousel>
