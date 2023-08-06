@@ -19,8 +19,8 @@ const ProductSection =(props:any) =>{
         <div className="flex">
            <Carousel>
            {fotosProduto.map((produto)=>(
-            <div className="bg-cover">
-            <img key={produto} src={produto}/>
+            <div key={produto} className="bg-cover">
+            <img  src={produto} alt={produto}>
             </div>
            ))}
            </Carousel>
