@@ -1,6 +1,5 @@
+import { url } from 'inspector'
 import React from 'react'
-import Image from 'next/image'
-
 
 
 
@@ -8,17 +7,18 @@ const Breadcrumb = (props:any) => {
     return (
         <>
         
-    <div className='w-screen h-[60vh] pt-[112px] flex items-center justify-center relative'>
-    <Image 
-        width={1920}
-        height={1080}
-        alt='bg'
-        className='absolute z-[-1] h-auto bg-cover'
-        src={`/${props.produto.pseudo}/${props.produto.pseudo}1.png`} 
-        />
-        
-        <h1 className='text-white text-4xl'>{` ${props.produto.genre}/ ${props.produto.pseudo}`}</h1>
+    <div className='w-screen h-[70vh] flex items-center justify-center relative'>
+        <div className='w-[100%] h-[100%] absolute bg-cover bg-fixed bg-center z-[-1] '
+            style={{
+            backgroundImage:`linear-gradient(rgba(27, 47, 69, 0.8), rgba(27, 47, 69, 0.8)), url(/${props.produto.pseudo}/${props.produto.pseudo}1.png)`,
+            
+        }}
+    >            
+        </div>
+            <h1 className='text-white text-4xl'>{` ${props.produto.genre} / ${props.produto.pseudo}`}</h1>
     </div>
+    
+    
     </>
   )
 }
