@@ -19,7 +19,7 @@ const ProductSection =(props:any) =>{
         <div className="flex">
            <Carousel>
            {fotosProduto.map((produto)=>(
-            <div key={produto._id} className="bg-cover">
+            <div key={props.produto.pseudo} className="bg-cover">
                 <img  src={produto} alt={produto}/>
             </div>
            ))}
