@@ -16,10 +16,10 @@ const GenerosProdutos = ({ selectedGenre, onSelect }: Props) => {
   return (
     
       
-      <ul className='font-sans font-bold  flex w-full justify-between p-[15px] bg-primary-blue mt-[30px] rounded-xl'>
+      <ul className='font-sans font-bold  flex w-full justify-between p-[15px] bg-primaryBlue mt-[30px] rounded-xl'>
         {/* "All" for no filter */}
         <li
-          className={!selectedGenre ? "bg-indigo-50 text-secondary-blue p-2 rounded-md" : "text-white p-2 hover:text-yellow-400"}
+          className={!selectedGenre ? "bg-indigo-50 text-secondaryBlue p-2 rounded-md" : "text-white p-2 hover:text-yellow-400"}
           onClick={() => onSelect("")}
         >
           <a className="cursor-pointer capitalize text-3xl">
@@ -33,7 +33,7 @@ const GenerosProdutos = ({ selectedGenre, onSelect }: Props) => {
             <li
               key={i}
               // use a different class if the genre is selected.
-              className={isSelected ? "bg-indigo-50 text-secondary-blue p-2 rounded-md" : "text-white p-2 hover:text-yellow-400"}
+              className={isSelected ? "bg-indigo-50 text-secondaryBlue p-2 rounded-md" : "text-white p-2 hover:text-yellow-400"}
               // attach the onSelect handler
               onClick={() => onSelect(genre)}
             >

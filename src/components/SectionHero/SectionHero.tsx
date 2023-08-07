@@ -7,7 +7,7 @@ export function SectionHero(){
                     <source src={'video/video.mp4'} />
                 </video>
  
-            <div className="absolute top-0 left-0 bottom-0 w-[40%] bg-primary-blue z-[-1]">
+            <div className="absolute top-0 left-0 bottom-0 w-[40%] bg-primaryBlue z-[-1]">
 
             </div>
             <Container>
@@ -16,10 +16,10 @@ export function SectionHero(){
                     <h1 className="text-white font-sans font-bold text-5xl tracking-tighter">
                     Foco no que importa
                     </h1>
-                    <span className="text-secondary-text-light font-sans text-[20px]">
+                    <span className="text-secondaryTextLight font-sans text-[20px]">
                     Há mais de 17 anos, a Stockprint é líder no mercado de identificação, oferecendo soluções inovadoras e confiáveis para empresas de diversos segmentos.
                     </span>
-                    <button className="bg-secondary-blue py-5 rounded-full">
+                    <button className="bg-secondaryBlue py-5 rounded-full">
                         <span className="text-3xl text-white">Saiba mais</span>
                     </button>
                 </div>

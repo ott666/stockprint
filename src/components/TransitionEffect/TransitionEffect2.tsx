@@ -22,7 +22,7 @@ const TransitionEffect2 = () => {
     transition={{duration:0.8, delay:0.4, ease:'easeInOut'}} />
     
 
-    <motion.div className='fixed top-0 bottom-0 right-full w-screen h-screen z-10 bg-primary-blue'
+    <motion.div className='fixed top-0 bottom-0 right-full w-screen h-screen z-10 bg-primaryBlue'
     initial={{x:'100%',width:'100%'}}
     animate={{x:'0%', width:'0%'}}
     transition={{duration:.7, delay:0.6, ease:'easeInOut'}} />

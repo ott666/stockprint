@@ -9,7 +9,7 @@ interface CardServicoProps{
 
 const CardServico = (props: CardServicoProps) => {
   return (
-    <div className='w-[49%] h-[300px] rounded-3xl text-white bg-primary-blue flex align-center font-sans'>
+    <div className='w-[49%] h-[300px] rounded-3xl text-white bg-primaryBlue flex align-center font-sans'>
         <Image className='ml-[25px]'
         src={props.icon}
         alt='icon'
