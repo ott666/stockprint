@@ -31,8 +31,8 @@ export function Header(){
                     
                     <div className='flex items-center gap-12'>
                         <ul className='flex gap-4 text-primaryWhite font-bold'>
-                            {navLinks.map((link)=>(
-                                <li><Link href={link.link}>
+                            {navLinks.map((link, index)=>(
+                                <li key={index}><Link href={link.link}>
                                         {link.nome}
                                     </Link></li>
                             ))}

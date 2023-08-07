@@ -55,7 +55,7 @@ export default function ProductTab(props:any) {
         <Card>
           <CardHeader>
             <CardDescription>
-              Change your password here. After saving, you'll be logged out.
+              Change your password here. After saving, you`ll be logged out.
             </CardDescription>
           </CardHeader>
           <CardContent className="space-y-2">
