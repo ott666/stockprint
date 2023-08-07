@@ -4,7 +4,7 @@ import Link from "next/link"
 export function SectionHero(){
     return (
         <section className="relative w-full h-screen pt-28 overflow-hidden">     
-                <video autoPlay muted loop className="absolute z-[-2] min-w-full min-h-full">
+                <video autoPlay muted loop className="absolute z-[-2] min-w-full min-h-full translate-x-[250px] translate-y-[-150px]">
                     <source src={'video/video.mp4'} />
                 </video>
  
