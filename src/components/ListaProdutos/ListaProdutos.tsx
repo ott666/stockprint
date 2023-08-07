@@ -19,7 +19,7 @@ const ListaProdutos = ({ selectedGenre }: Props) => {
       {filteredMoviesByGenre.map((product) => {
        
         return (
-          <Link href={`/product/${product.pseudo}`} key={product.pseudo}> 
+          <Link href={`/produtos/${product.pseudo}`} key={product.pseudo}> 
             <CardProduct 
             urlproduct={`/${product.pseudo}/${product.pseudo}1.png`} 
             altproduct={product.title}

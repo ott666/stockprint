@@ -2,7 +2,9 @@ import React from 'react'
 import { Container } from '../Container/Container'
 
 const Footer = () => {
-  return (
+  
+  
+    return (
     <div className='w-screen bg-primaryBlue h-[40vh] text-white font-sans flex items-center'>
 
         <div className='flex max-w-[1246px] px-[15px] mx-auto gap-[15px] justify-between'>
@@ -15,19 +17,18 @@ const Footer = () => {
             <div className='flex flex-col h-full'>
                 <h4 className='text-xl font-semibold'>Links úteis</h4>
                 <ul className='text-[18px]'>
-                <li className='py-2'> <a href="index.html">- Home</a></li>
-                <li className='py-2'> <a href="sobre.html">- Sobre</a></li>
-                <li className='py-2'> <a href="servicos.html">- Serviços</a></li>
-                <li className='py-2'> <a href="contato.html">- Contato</a></li>
+                <li className='py-2'> <a href="/">- Home</a></li>
+                <li className='py-2'> <a href="/servicos">- Serviços</a></li>
+                <li className='py-2'> <a href="/contato">- Contato</a></li>
                 </ul>
             </div>
             <div className='flex flex-col h-full'>
                 <h4 className='text-xl font-semibold'>Produtos</h4>
                 <ul className='text-[18px]'>
-                <li className='py-2'> <a href="index.html">- Impressoras</a></li>
-                <li className='py-2'> <a href="sobre.html">- Ribbons</a></li>
-                <li className='py-2'> <a href="servicos.html">- Limpeza</a></li>
-                <li className='py-2'> <a href="contato.html">- Etiquetas</a></li>
+                <li className='py-2'> <a href="/produtos">- Impressoras</a></li>
+                <li className='py-2'> <a href="/produtos">- Ribbons</a></li>
+                <li className='py-2'> <a href="/produtos">- Limpeza</a></li>
+                <li className='py-2'> <a href="/produtos">- Etiquetas</a></li>
                 </ul>
             </div>
             <div>

@@ -14,8 +14,7 @@ export default function Home() {
     <head>
       <title>Pagina do ott</title>
     </head>
-    <TransitionEffect2/>
-   
+    <TransitionEffect2 />
     <SectionHero/>
     <OurProducts />
     <ProdutoPage/>

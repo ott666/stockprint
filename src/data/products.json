@@ -1,8 +1,96 @@
 [
-{"id":1,"title":"HID Fargo INK1000","genre":"impressora", "pseudo":"ink1000"},
-{"id":2,"title":"HID Fargo DTC1500","genre":"impressora", "pseudo":"dtc1500"},
-{"id":3,"title":"HID Fargo DTC1250e Single","genre":"impressora", "pseudo":"dtc1250e_single"},
-{"id":4,"title":"HID Fargo DTC1250e Dual","genre":"limpeza", "pseudo":"dtc1250e_dual"},
-{"id":5,"title":"HID Fargo HDP5000","genre":"ribbons", "pseudo":"hdp5000"},
-{"id":6,"title":"HID Fargo HDP6600","genre":"etiquetas", "pseudo":"hdp6600"}
+{"id":1,"title":"HID Fargo INK1000","genre":"impressora", "pseudo":"ink1000",
+"descriptions":
+        [
+            "A Impressora FARGO® DTC1250e Single-Side é uma solução compacta de impressão, projetada para operação descomplicada. Com capacidade de imprimir em cores vibrantes, monocromáticas e com reimpressão em preto, oferece opções adicionais para codificação de tarja magnética e personalização de chip (módulo smart card). Além disso, a conectividade inclui opções Ethernet e Wi-Fi.",
+            "Ideal para a emissão eficiente e segura de cartões, crachás e credenciais, a impressora compacta FARGO® DTC1250e Single-Side proporciona qualidade excepcional e baixo custo de manutenção. Atendendo tanto pequenas como médias empresas, é uma escolha inteligente para quem busca eficiência e confiabilidade"
+        ],
+"frases":
+        [
+            "Utilitário de diagnóstico FARGO Workbench com a ferramenta de correspondência de cores Color Assist",
+            "Personaliza até 225 cartões coloridos por hora (YMCKO)",
+            "Personaliza até 600 cartões monocromáticos por hora (K)"
+        ]
+},
+{"id":2,"title":"HID Fargo DTC1500","genre":"impressora", "pseudo":"dtc1500", 
+"descriptions":
+        [
+            "A Impressora FARGO® DTC1250e Single-Side é uma solução compacta de impressão, projetada para operação descomplicada. Com capacidade de imprimir em cores vibrantes, monocromáticas e com reimpressão em preto, oferece opções adicionais para codificação de tarja magnética e personalização de chip (módulo smart card). Além disso, a conectividade inclui opções Ethernet e Wi-Fi.",
+            "Ideal para a emissão eficiente e segura de cartões, crachás e credenciais, a impressora compacta FARGO® DTC1250e Single-Side proporciona qualidade excepcional e baixo custo de manutenção. Atendendo tanto pequenas como médias empresas, é uma escolha inteligente para quem busca eficiência e confiabilidade"
+        ],   
+"frases":
+        [
+            "Utilitário de diagnóstico FARGO Workbench com a ferramenta de correspondência de cores Color Assist",
+            "Personaliza até 225 cartões coloridos por hora (YMCKO)",
+            "Personaliza até 600 cartões monocromáticos por hora (K)"
+        ]
+},
+{"id":3,"title":"HID Fargo DTC1250e Single","genre":"impressora", "pseudo":"dtc1250e_single",
+"descriptions":
+        [
+            "A Impressora FARGO® DTC1250e Single-Side é uma solução compacta de impressão, projetada para operação descomplicada. Com capacidade de imprimir em cores vibrantes, monocromáticas e com reimpressão em preto, oferece opções adicionais para codificação de tarja magnética e personalização de chip (módulo smart card). Além disso, a conectividade inclui opções Ethernet e Wi-Fi.",
+            "Ideal para a emissão eficiente e segura de cartões, crachás e credenciais, a impressora compacta FARGO® DTC1250e Single-Side proporciona qualidade excepcional e baixo custo de manutenção. Atendendo tanto pequenas como médias empresas, é uma escolha inteligente para quem busca eficiência e confiabilidade"
+        ],
+"frases":
+        [
+            "Utilitário de diagnóstico FARGO Workbench com a ferramenta de correspondência de cores Color Assist",
+            "Personaliza até 225 cartões coloridos por hora (YMCKO)",
+            "Personaliza até 600 cartões monocromáticos por hora (K)",
+            "Utilitário de diagnóstico FARGO Workbench com a ferramenta de correspondência de cores Color Assist",
+            "Personaliza até 225 cartões coloridos por hora (YMCKO)",
+            "Personaliza até 600 cartões monocromáticos por hora (K)",
+            "Resolução de impressão de 300 dpi, 256 tons de cores por painel",
+            "Alimentação automática com bandeja de entrada para até 100 cartões (0,76mm)",
+            "Bandeja de saída para até 30 cartões (0,76mm)",
+            "Fácil acesso e troca de suprimentos economizando tempo e evitando desperdícios",
+            "Projetada com a tecnologia Genuine HID, a máquina é interoperável com outros produtos do ecossistema HID",
+            "Aplicativo de criação de crachás integrado Swift ID",
+            "Utilitário de diagnóstico FARGO Workbench com correspondência de cores Color Assist",
+            "Botões de status que mudam de cor",
+            "Conectividade USB",
+            "Codificador de tarja magnética (Opcional)",
+            "Módulo de gravação de cartões inteligentes - smart cards (Opcional)",
+            "Ethernet com servidor de impressão interno (Opcional)",
+            "Conectividade sem fio com acessório Wi-Fi, em impressoras habilitadas para Ethernet (Opcional)"
+        ]
+},
+{"id":4,"title":"HID Fargo DTC1250e Dual","genre":"limpeza", "pseudo":"dtc1250e_dual",
+"descriptions":
+        [
+            "A Impressora FARGO® DTC1250e Single-Side é uma solução compacta de impressão, projetada para operação descomplicada. Com capacidade de imprimir em cores vibrantes, monocromáticas e com reimpressão em preto, oferece opções adicionais para codificação de tarja magnética e personalização de chip (módulo smart card). Além disso, a conectividade inclui opções Ethernet e Wi-Fi.",
+            "Ideal para a emissão eficiente e segura de cartões, crachás e credenciais, a impressora compacta FARGO® DTC1250e Single-Side proporciona qualidade excepcional e baixo custo de manutenção. Atendendo tanto pequenas como médias empresas, é uma escolha inteligente para quem busca eficiência e confiabilidade"
+        ],
+"frases":
+        [
+            "Utilitário de diagnóstico FARGO Workbench com a ferramenta de correspondência de cores Color Assist",
+            "Personaliza até 225 cartões coloridos por hora (YMCKO)",
+            "Personaliza até 600 cartões monocromáticos por hora (K)"
+        ]
+},
+{"id":5,"title":"HID Fargo HDP5000","genre":"ribbons", "pseudo":"hdp5000",
+"descriptions":
+        [
+            "A Impressora FARGO® DTC1250e Single-Side é uma solução compacta de impressão, projetada para operação descomplicada. Com capacidade de imprimir em cores vibrantes, monocromáticas e com reimpressão em preto, oferece opções adicionais para codificação de tarja magnética e personalização de chip (módulo smart card). Além disso, a conectividade inclui opções Ethernet e Wi-Fi.",
+            "Ideal para a emissão eficiente e segura de cartões, crachás e credenciais, a impressora compacta FARGO® DTC1250e Single-Side proporciona qualidade excepcional e baixo custo de manutenção. Atendendo tanto pequenas como médias empresas, é uma escolha inteligente para quem busca eficiência e confiabilidade"
+        ],
+"frases":
+        [
+            "Utilitário de diagnóstico FARGO Workbench com a ferramenta de correspondência de cores Color Assist",
+            "Personaliza até 225 cartões coloridos por hora (YMCKO)",
+            "Personaliza até 600 cartões monocromáticos por hora (K)"
+        ]
+},
+{"id":6,"title":"HID Fargo HDP6600","genre":"etiquetas", "pseudo":"hdp6600",
+"descriptions":
+        [
+            "A Impressora FARGO® DTC1250e Single-Side é uma solução compacta de impressão, projetada para operação descomplicada. Com capacidade de imprimir em cores vibrantes, monocromáticas e com reimpressão em preto, oferece opções adicionais para codificação de tarja magnética e personalização de chip (módulo smart card). Além disso, a conectividade inclui opções Ethernet e Wi-Fi.",
+            "Ideal para a emissão eficiente e segura de cartões, crachás e credenciais, a impressora compacta FARGO® DTC1250e Single-Side proporciona qualidade excepcional e baixo custo de manutenção. Atendendo tanto pequenas como médias empresas, é uma escolha inteligente para quem busca eficiência e confiabilidade"
+        ],
+"frases":
+        [
+            "Utilitário de diagnóstico FARGO Workbench com a ferramenta de correspondência de cores Color Assist",
+            "Personaliza até 225 cartões coloridos por hora (YMCKO)",
+            "Personaliza até 600 cartões monocromáticos por hora (K)"
+        ]
+}
 ]
