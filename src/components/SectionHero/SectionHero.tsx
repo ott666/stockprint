@@ -1,6 +1,7 @@
 import { Container } from "../Container/Container"
+import Link from "next/link"   
+
 export function SectionHero(){
-    
     return (
         <section className="relative w-full h-screen pt-28 overflow-hidden">     
                 <video autoPlay muted loop className="absolute z-[-2] min-w-full min-h-full">
@@ -19,9 +20,15 @@ export function SectionHero(){
                     <span className="text-secondaryTextLight font-sans text-[20px]">
                     Há mais de 17 anos, a Stockprint é líder no mercado de identificação, oferecendo soluções inovadoras e confiáveis para empresas de diversos segmentos.
                     </span>
+                    
+                    
                     <button className="bg-secondaryBlue py-5 rounded-full">
+                    <Link href='https://wa.me/5516992974070?text=Ol%C3%A1.%20Vi%20o%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es'>
                         <span className="text-3xl text-white">Saiba mais</span>
+                        </Link>
+
                     </button>
+                    
                 </div>
 
             </Container>

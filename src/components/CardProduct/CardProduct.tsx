@@ -12,7 +12,6 @@ interface CardProductProps{
 }
 
 export function CardProduct(props: CardProductProps){
-    console.log(props)
     return (
         <div className={`group flex justify-center items-center min-w-[350px] h-[300px] relative` }>
             

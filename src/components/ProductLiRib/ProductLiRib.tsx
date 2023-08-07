@@ -2,17 +2,17 @@ import React from "react"
 
 
 
-export default function LiProductDetails(props:any){
-
+export default function LiProductDetailsRib(props:any){
+    console.log(props,'agoravai')
     const lista=[
-        props.produto.lista.frases.map((frase:any)=>(
+        props.produto.descriptions.map((frase:any)=>(
             `${frase}`
         ))
     ]
     
 
     return(
-    <ul className="list-disc font-sans pt-5">
+    <ul className="list-disc font-sans pt-5 text-white">
    
     {lista.map((frase) =>(
         frase.map((frase2:string) =>(

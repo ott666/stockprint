@@ -17,10 +17,11 @@ import {
 } from "@/components/ui/tabs"
 
 import ProductDetails from "../ProductDetails/ProductDetails"
+import LiProductDetailsRib from "../ProductLiRib/ProductLiRib"
 
-export default function ProductTab(props:any) {
-   
+export default function ProductTabRib(props:any) {
     const product = props.produto
+    
     return (
     <Tabs defaultValue="description" className="w-full font-sans h-fit pb-[50px] bg-primaryBlue rounded-3xl">
         <h1 className="text-center text-white  font-bold text-3xl py-2">{product.title}</h1>
@@ -32,7 +33,7 @@ export default function ProductTab(props:any) {
         <Card className="bg-secondaryBlue text-white">
           <CardHeader>
             <CardDescription>
-            <ProductDetails descriptionsProp={props.produto.descriptions} />
+            <LiProductDetailsRib produto={props.produto}/>
             </CardDescription>
           </CardHeader>
           <CardContent className="space-y-2">
