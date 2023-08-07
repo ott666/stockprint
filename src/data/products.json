@@ -92,5 +92,20 @@
             "Personaliza até 225 cartões coloridos por hora (YMCKO)",
             "Personaliza até 600 cartões monocromáticos por hora (K)"
         ]
+},
+
+{"id":7,"title":"Ribbon #045102 - K","genre":"ribbon", "pseudo":"045102",
+"descriptions":
+        [
+            "Impressoras compatíveis: DTC1000 e DTC1250e (single e dual)",
+            "Fabricante: HID FARGO",
+            "Rendimento: 1000 faces monocromáticas em preto",
+            "Painéis: Resina (K)"
+        ]
+        ,
+"frases":
+        [
+          ""
+        ]
 }
 ]
